@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<global>
+	<serialPort>
+		<name>COM2</name>
+		<dataBits>8</dataBits>
+		<parity>None</parity>
+		<stopBits>1</stopBits>
+    <timeout>500</timeout>
+	</serialPort>
+	<AIDevice>
+		<startAddr>1</startAddr>
+		<counts>6</counts>
+	</AIDevice>
+</global>
