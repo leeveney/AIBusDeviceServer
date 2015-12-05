@@ -1,10 +1,10 @@
 ﻿
 ##AI Bus Device Server
- 基于.Net FrameWork 4.0
- 引用NModbus4
- 通过电脑上的串口采集厦门宇电温度巡检仪的温度，转换为Modbus TCP Slave供SCADA等程序读取。
- 最多支持10个子站
- ModbusTCPSlave 地址表，04功能码区域，地址从1开始
+ 基于.Net FrameWork 4.0  
+ 引用NModbus4  
+ 通过电脑上的串口采集厦门宇电温度巡检仪的温度，转换为Modbus TCP Slave供SCADA等程序读取。  
+ 最多支持10个子站  
+ ModbusTCPSlave 地址表，04功能码区域，地址从1开始  
  |Address|Name  |Data Type|       |
  |:------|:-----|:--------|:------|
  |01|CommStatus|int|0:OK <br> 1:timeout <br> 2:check failed <br> 3:unknow|
