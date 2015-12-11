@@ -119,7 +119,6 @@ namespace AIBusDeviceServer
         protected override void OnStop() {
             timer.Stop();
             serialPort.Close();
-            //slaveTcpListener.Stop();
         }
         private void timer_Elapsed(object sender, ElapsedEventArgs e) {
             int i = 0;
